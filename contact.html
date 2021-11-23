@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name=”description” content=”TanimotoEisukeの制作したポートフォリオサイトです。問い合わせページです。”>
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/vendors/swiper-bundle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>CONTACT -お問い合わせ-</title>
+  </head>
+
+  <body>
+    <div class="top-scroll fas fa-chevron-circle-up fa-2x"></div>
+
+    <header class="header">
+      <div class="nav-cover">
+        <nav class="nav-list">
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">COMPANY</a></li>
+          <li><a href="#">RECRUIT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </nav>
+      </div>
+
+      <div class="header__inner">
+        <div class="header__logo"><a href="#">PORT DESIGN</a></div>
+        <nav class="header__nav">
+          <li><a href="#" class="link">NEWS</a></li>
+          <li><a href="#" class="link">SERVICE</a></li>
+          <li><a href="#" class="link">WORKS</a></li>
+          <li><a href="#" class="link">COMPANY</a></li>
+          <li><a href="#" class="link">RECRUIT</a></li>
+          <li><a href="#" class="link">CONTACT</a></li>
+        </nav>
+      </div>
+      <div class="menu-btn"><span></span><span></span><span></span></div>
+    </header>
+
+    <div class="header-image">
+      <div class="page-title">
+        <h2>CONTACT</h2>
+        <span>お問い合わせ</span>
+      </div>
+    </div>
+
+    <div class="header-menu">
+      <div class="header-menu__list">
+        <span><a href="#">HOME</a></span>
+        <span> > </span>
+        <span>CONTACT</span>
+      </div>
+    </div>
+
+    <main>
+      <section class="contact-form">
+        <div class="contact-form__inner">
+          <span
+            >Webサイトの制作のご依頼やお見積りなど、お気軽にご相談ください。</span
+          >
+          <div class="form">
+            <div class="form__container">
+              <form action="xxx.php" method="post">
+                <div class="form__kinds">
+                  <label for="kinds">
+                    <h5>お問い合わせ種別</h5>
+                    <p><sup>※</sup>必須</p>
+                    <div class="form-item form__kinds-radio">
+                      <div class="radio-btn">
+                        <input
+                          type="radio"
+                          name="kind"
+                          value="お仕事のご依頼・ご相談" 
+                        /><span> お仕事のご依頼・ご相談</span>
+                      </div>
+                      <div class="radio-btn">
+                        <input
+                          type="radio"
+                          name="kind"
+                          value="お見積りのご依頼"
+                        /><span> お見積りのご依頼</span>
+                      </div>
+                      <div class="radio-btn">
+                        <input
+                          type="radio"
+                          name="kind"
+                          value="採用について"
+                        /><span> 採用について</span>
+                      </div>
+                      <div class="radio-btn">
+                        <input type="radio" name="kind" value="その他" /><span> その他</span>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+                <div class="form-item">
+                  <label for="name">
+                    <h5>お名前</h5>
+                    <p><sup>※</sup>必須</p>
+                    <input type="name" name="n1" required />
+                  </label>
+                </div>
+                <div class="form__item">
+                  <label for="company">
+                    <h5>会社名</h5>
+                    <input type="text" name="c1" />
+                  </label>
+                </div>
+                <div class="form-item">
+                  <label for="mail">
+                    <h5>メールアドレス</h5>
+                    <p><sup>※</sup>必須</p>
+                    <input type="email" name="m1" required />
+                  </label>
+                </div>
+                <div class="form-item">
+                  <label for="tel">
+                    <h5>電話番号</h5>
+                    <p class="color-g">(半角数字ハイフンなし)</p>
+                    <input class="tel" type="tel" name="m1" required />
+                  </label>
+                </div>
+                <div class="form-item">
+                  <label for="content">
+                    <h5>お問い合わせ内容</h5>
+                    <p><sup>※</sup>必須</p>
+                    <textarea class="content" type="text" name="n1" required></textarea>
+                  </label>
+                </div>
+                <div class="form-item">
+                  <label for="select">
+                    <h5>PON DESIGNをどちらでお知りになりましたか？</h5>
+                    <p><sup>※</sup>必須</p>
+                    <select name="select" id="select" required>
+                      <option value="select" selected>選択してください</option>
+                      <option value="select">Google/Yahoo検索</option>
+                      <option value="select">SNS</option>
+                      <option value="select">ブログ</option>
+                      <option value="select">友人や知人</option>
+                      <option value="select">その他</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form__btn">
+                  <a href="#"
+                    >
+                    <div class="btn-anime submit">
+                      <input
+                        type="submit"
+                        value="送信する"
+                        required
+                    />     
+                    </div>
+                </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="contact">
+      <div class="contact__container">
+        <div class="contact__content">
+          <div class="section-title">
+            <h2>CONTACT</h2>
+            <p>お問い合わせ</p>
+          </div>
+          <p>Webサイトの制作のご依頼やお見積りなど、お気軽にご相談ください。</p>
+
+          <a href="#"><button class="btn-anime">MORE</button></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <nav class="footer__nav">
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">COMPANY</a></li>
+          <li><a href="#">RECRUIT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </nav>
+        <span>&copy TANI DESIGN</span>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

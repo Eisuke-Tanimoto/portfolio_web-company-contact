@@ -1,0 +1,44 @@
+.menu-btn {
+  display: none;
+
+}
+
+.header {
+  &__nav {
+    display: flex;
+  }
+}
+
+.form {
+  &__kinds {
+    &-radio {
+      display: flex;
+      & > div {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+label {
+  & > input {
+    display: block;
+    width: 50%;
+
+  }
+
+  & > .tel {
+    width: 40%;
+  }
+
+  & > textarea {
+    width: 70%;
+    height: 150px;
+  }
+}
+
+.footer {
+  &__nav {
+    justify-content: center;
+  }
+}
