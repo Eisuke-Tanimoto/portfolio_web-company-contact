@@ -452,25 +452,6 @@ label {
   }
 }
 
-.contact {
-  width: 100%;
-  background-color: $BGgray;
-
-  &__container {
-    @extend .content-width;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-
-  }
-  
-  &__content {
-    & > p {
-      @extend .fs-sm;
-    }
-  }
-}
-
 .footer {
   width: 100%;
   background-color: $cBlack;
